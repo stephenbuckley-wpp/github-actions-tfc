@@ -6,14 +6,14 @@ terraform {
     organization = "WPP-Lab"
 
     workspaces {
-      prefix = "app-harris-"
+      prefix = "app-sbuckley-"
     }
   }
 }
 
 
 provider "google" {
-  project     = "tharris-vault-customer-pov"
+  project     = "tsbuckley-vault-customer-pov"
   region      = "europe-west2"
   zone        = "europe-west2-a"
 }
